@@ -1,0 +1,76 @@
+.home {
+  background-image: url("https://wallpapers.com/images/featured/4k-minimalist-ysuq5pgxv6mpjszl.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.details, .flash, .img-cont, .colors-head, .color-name, footer {
+  text-align: center;
+}
+
+.details {
+  margin: 5%;
+}
+
+.heading, .flash, .colors-head, .color-name, footer {
+  font-family: 'Sono', sans-serif;
+}
+
+.heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.flash {
+  color: red;
+}
+
+input {
+  margin: 1% 22% 0.5%;
+}
+
+.heading-img {
+  width: 30%;
+  height: 30%;
+  border-radius: 8px;
+}
+
+.img-cont {
+  margin-top: 1%;
+}
+
+.colors-head {
+  margin: 1% 10%;
+}
+
+.colors {
+  margin: 0% 15%;
+  padding: 3%;
+  border-radius: 9px;
+  margin-bottom: 2%;
+}
+
+.color-name {
+  font-size: 1.5rem;
+  margin-top: 2%;
+}
+
+.colors-row {
+  margin: auto;
+}
+
+footer {
+  margin-top: 6%;
+  font-size: 1.5rem;
+}
+
+.social-icon {
+  letter-spacing: 10px;
+  color: black;
+}
+
+@media (max-width: 1120px) {
+  .home {
+    background-size: auto;
+  }
+}
